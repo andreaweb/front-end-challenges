@@ -1,0 +1,33 @@
+/*topcinza 
+brainline 807c61
+buttongreen */
+body{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	background: #262626
+}
+.contact{
+	background: #cccbc4;
+	color: #807c61;
+}
+/*utilities*/
+.light{
+	font-weight: lighter;
+}
+.bold{
+	font-weight: bold;
+}
+.green{
+	color: #3e9350;
+}
+.pink{
+	color: #bf305f;
+}
+.blue-bg{
+	background: #bf305f;
+}
+.green-bg{
+	background: #8bdf9f;
+}

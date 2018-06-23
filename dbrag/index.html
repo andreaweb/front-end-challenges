@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <meta name="description" content="Desafio da Empresa Dbrag - HTML, CSS, JS">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <title>Desafio da Empresa Dbrag</title>
 </head>
 <body>
-	<section>
+	<section class="full-page header">
 		<img src="images/top-logo.png">
-		<h1>front-enders, procura-se! vaga presencial São Paulo Capital</h1>
+		<h1 class="light">front-enders, <span class="bold">procura-se!</span> vaga 
+			<span class="green">presencial</span> 
+			São Paulo Capital
+		</h1>
 	</section>
-	<section>
-		<p>Você, por acaso...</p>
+	<section class="full-page">
+		<p class="light">Você, por acaso...</p>
 		<div class="card">
 			<img src="images/curriculo.png">
 			<p>Tem um bom currículo?</p>
@@ -28,10 +32,10 @@
 			<img src="images/graduado.png">
 			<p>É formado na área?</p>
 		</div>
-		<p>Sim?</p>
-		<p>Isso não importa aqui!</p>
+		<p class="light">Sim?</p>
+		<p class="pink bold">Isso não importa aqui!</p>
 	</section>
-	<section>
+	<section class="full-page">
 		<h2>Sabe o que vale de verdade na DBR.ag?</h2>
 		<p>Conhecimento em:</p>
 		<img src="images/skills.png">
@@ -41,8 +45,8 @@
 		<p>Gostar de música</p>
 		<p>Gostar de compartilhar conhecimento</p>
 	</section>
-	<section>
-		<p>Preencha seus dados abaixo e o próximo passo será um desafio DBR!</p>
+	<section class="full-page contact">
+		<p class="light">Preencha seus dados abaixo e o próximo passo será um desafio DBR!</p>
 		<img src="images/brain.png">
 		<form>
 			<input type="text" placeholder="Nome Completo"/>
@@ -55,7 +59,7 @@
 			<input type="text" placeholder="twitter.com/"/><!-- ícone twitter-->
 			<input type="text" placeholder="github.com"/><!-- ícone github-->
 			<textarea placeholder="Fale mais"></textarea><!-- ícone megafone-->
-			<button type="Submit">enviar</button>
+			<button class="green-bg" type="Submit">enviar</button>
 			<img src="images/bottom-logo.png">
 		</form>
 	</section>
