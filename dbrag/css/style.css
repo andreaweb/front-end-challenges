@@ -5,8 +5,24 @@ body{
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 }
+p, h1{
+	margin: 0;
+}
 .header{
-	background: #262626
+	background: #262626 url(../images/smoke.png) no-repeat;
+	background-position: 100% 100%;
+	background-size: 35.8%;
+}
+.intro{
+	background: url(../images/mug-bg.png) no-repeat;
+	background-size: contain
+}
+.requirements{
+	background: url(../images/code-bg.png) no-repeat;
+	background-size: cover
+}
+.full-page{
+	min-height: 100vh;
 }
 .contact{
 	background: #cccbc4;

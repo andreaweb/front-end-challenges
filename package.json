@@ -1,0 +1,23 @@
+{
+  "name": "front-end-challenges",
+  "version": "1.0.0",
+  "description": "Showing off my skills + practicing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreaweb/front-end-challenges.git"
+  },
+  "author": "\u001b[A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreaweb/front-end-challenges/issues"
+  },
+  "homepage": "https://github.com/andreaweb/front-end-challenges#readme",
+  "dependencies": {
+    "browsersync": "0.0.1-security",
+    "normalize.css": "^8.0.0"
+  }
+}
