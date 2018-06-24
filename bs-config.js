@@ -16,12 +16,11 @@ module.exports = {
     "ui": {
         "port": 3001
     },
-    "files": ["**/*.css", "**/*.html", "*"],
+    "files": ["*.css", "*.html", "*.js"],
     "watchEvents": [
         "change"
     ],
     "watch": true,
-    "ignore": [],
     "single": false,
     "watchOptions": {
         "ignoreInitial": true
@@ -44,15 +43,15 @@ module.exports = {
     "logLevel": "info",
     "logPrefix": "Browsersync",
     "logConnections": false,
-    "logFileChanges": true,
-    "logSnippet": true,
+    "logFileChanges": false,
+    "logSnippet": false,
     "rewriteRules": [],
     "open": "local",
     "browser": "default",
     "cors": false,
     "xip": false,
     "hostnameSuffix": false,
-    "reloadOnRestart": false,
+    "reloadOnRestart": true,
     "notify": true,
     "scrollProportionally": true,
     "scrollThrottle": 0,
@@ -104,5 +103,5 @@ module.exports = {
         "gif": "img",
         "js": "script"
     },
-    "injectNotification": false
+    "injectNotification": true
 };

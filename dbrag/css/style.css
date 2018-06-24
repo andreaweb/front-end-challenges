@@ -5,17 +5,22 @@ body{
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 }
-p, h1{
+p, h1, h2{
 	margin: 0;
+	font-weight: 400;
 }
 .header{
 	background: #262626 url(../images/smoke.png) no-repeat;
 	background-position: 100% 100%;
 	background-size: 35.8%;
 }
+.title{
+	font-size: 55px;
+	text-align:center;
+}
 .intro{
 	background: url(../images/mug-bg.png) no-repeat;
-	background-size: contain
+	background-size: cover
 }
 .requirements{
 	background: url(../images/code-bg.png) no-repeat;
@@ -28,9 +33,43 @@ p, h1{
 	background: #cccbc4;
 	color: #807c61;
 }
+.cerebro{
+	left: calc(50vw - 48px);
+    position: relative;
+    background: #cccbc4;
+    padding: 10px
+}
+.cerebro-borda{
+	width: 80vw;
+    border-color: #807c61;
+    position: relative;
+    top: 40px;
+    border-width: .5px;
+}
+.form{
+	display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.input{
+	border-radius: 5px;
+}
+.button{
+	margin-left: 30vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    padding: 10px 60px;
+    font-weight: 600;
+    color: white;
+}
 /*utilities*/
+.flex{
+	display: flex;
+	justify-content: center
+}
 .light{
-	font-weight: lighter;
+	font-weight: 100;
 }
 .bold{
 	font-weight: bold;

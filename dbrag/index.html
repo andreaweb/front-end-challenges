@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Desafio da Empresa Dbrag - HTML, CSS, JS">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,800" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link type="text/css" href="../node_modules/normalize.css/normalize.css" rel="stylesheet">
   <link type="text/css" href="css/style.css" rel="stylesheet">
@@ -12,31 +12,33 @@
 </head>
 <body>
 	<section class="full-page header">
-		<img src="images/top-logo.png">
-		<h1 class="light">front-enders, <span class="bold">procura-se!</span> vaga 
-			<span class="green">presencial</span> 
-			São Paulo Capital
+		<img class="title" src="images/top-logo.png">
+		<h1 class="light title">front-enders, <br><span class="bold">procura-se!</span><br> vaga 
+			<span class="green">presencial</span> <br>
+			São Paulo - Capital
 		</h1>
 	</section>
 	<section class="full-page intro">
-		<p class="light">Você, por acaso...</p>
-		<div class="card">
-			<img src="images/curriculo.png">
-			<p>Tem um bom currículo?</p>
+		<p class="light title">Você, por acaso...</p>
+		<div class="flex">
+			<div class="card">
+				<img src="images/curriculo.png">
+				<p>Tem um bom currículo?</p>
+			</div>
+			<div class="card">
+				<img src="images/xicara.png">
+				<p>Já trabalhou em uma agência?</p>
+			</div>
+			<div class="card">
+				<img src="images/graduado.png">
+				<p>É formado na área?</p>
+			</div>
 		</div>
-		<div class="card">
-			<img src="images/xicara.png">
-			<p>Já trabalhou em uma agência?</p>
-		</div>
-		<div class="card">
-			<img src="images/graduado.png">
-			<p>É formado na área?</p>
-		</div>
-		<p class="light">Sim?</p>
-		<p class="pink bold">Isso não importa aqui!</p>
+		<p class="light title">Sim?</p>
+		<p class="pink bold title">Isso não importa aqui!</p>
 	</section>
 	<section class="full-page requirements">
-		<h2>Sabe o que vale de verdade na DBR.ag?</h2>
+		<h2 class="title light">Sabe o que vale de verdade na DBR.ag?</h2>
 		<p>Conhecimento em:</p>
 		<img src="images/skills.png">
 		<p>Interesse em aprender</p>
@@ -46,21 +48,22 @@
 		<p>Gostar de compartilhar conhecimento</p>
 	</section>
 	<section class="full-page contact">
-		<p class="light">Preencha seus dados abaixo e o próximo passo será um desafio DBR!</p>
-		<img src="images/brain.png">
-		<form>
-			<input type="text" placeholder="Nome Completo"/>
-			<input type="email" placeholder="E-mail"/>
-			<input type="number" placeholder="Idade"/>
-			<input placeholder="Masculino/Feminino"/><!--Transformar em switch azul/rosa com símbolo-->
-			<input type="text" placeholder="Pretensão Salarial"/>
-			<input type="text" placeholder="Telefone"/>
-			<input type="text" placeholder="facebook.com/"/><!-- ícone facebook-->
-			<input type="text" placeholder="twitter.com/"/><!-- ícone twitter-->
-			<input type="text" placeholder="github.com"/><!-- ícone github-->
-			<textarea placeholder="Fale mais"></textarea><!-- ícone megafone-->
-			<button class="green-bg" type="Submit">enviar</button>
-			<img src="images/bottom-logo.png">
+		<p class="light title">Preencha seus dados abaixo<br> e o próximo passo será um desafio DBR!</p>
+		<hr class="cerebro-borda">
+		<img class="cerebro" src="images/brain.png">
+		<form class="form">
+			<input class="input" type="text" placeholder="Nome Completo"/>
+			<input class="input" type="email" placeholder="E-mail"/>
+			<input class="input" type="number" placeholder="Idade"/>
+			<input class="input" placeholder="Masculino/Feminino"/><!--Transformar em switch azul/rosa com símbolo-->
+			<input class="input" type="text" placeholder="Pretensão Salarial"/>
+			<input class="input" type="text" placeholder="Telefone"/>
+			<input class="input" type="text" placeholder="facebook.com/"/><!-- ícone facebook-->
+			<input class="input" type="text" placeholder="twitter.com/"/><!-- ícone twitter-->
+			<input class="input" type="text" placeholder="github.com"/><!-- ícone github-->
+			<textarea class="input" placeholder="Fale mais"></textarea><!-- ícone megafone-->
+			<button class="green-bg button" type="Submit">enviar</button>
+			<img class="title" src="images/bottom-logo.png">
 		</form>
 	</section>
 </body>
