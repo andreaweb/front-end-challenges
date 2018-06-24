@@ -48,6 +48,50 @@ p, h1, h2{
 .requirements__title{
 	padding-top: 60px;
 }
+.grid{
+	display:grid;
+	background: url(../images/conectores.png) no-repeat;
+	background-size: contain;
+	grid-template-rows: 63px 240px 130px 89px 70px 80px;
+	width: 80vw;
+    margin: 0 auto;
+	grid-template-areas: 
+	". . . . . . ."
+	"s s s b b b b"
+	"m m m m m m m"
+	". . . . . r r"
+	"l l l l l l l"
+	". c c c c c c";
+}
+.smaller{
+	grid-area: s;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+.bigger{
+	grid-area: b;
+}
+.middle{
+	grid-area: m;
+	display: flex;
+    justify-content: center;
+    margin-left: -195px;
+}
+.right{
+	grid-area: r;
+	margin-top: -37px;
+    margin-left: -197px;
+}
+.left{
+	grid-area: l;
+}
+.middle-bottom{
+	grid-area: c;
+    margin-top: 58px;
+    margin-left: 171px;
+}
 .contact{
 	background: #cccbc4;
 	color: #807c61;
