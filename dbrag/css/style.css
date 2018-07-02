@@ -48,7 +48,7 @@ p, h1, h2{
 .requirements__title{
 	padding-top: 60px;
 }
-.responsive-image{
+.responsive-img{
 	max-width: 100%;
 }
 .grid{
@@ -160,6 +160,21 @@ p, h1, h2{
 .flex{
 	display: flex;
 	justify-content: center
+}
+@media screen and (max-width: 800px){
+	.flex{
+		display: block;
+	}
+	.button{
+		margin-left: 0;
+	}
+	.row{
+		flex-direction: column;
+		width: 54vw;
+	}
+	.row__element{
+		width: 100%;
+	}
 }
 .light{
 	font-weight: 100;
